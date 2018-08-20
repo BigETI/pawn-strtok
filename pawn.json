@@ -1,0 +1,15 @@
+{
+	"user": "BigETI",
+	"repo": "pawn-strtok",
+	"entry": "test/strtoktest.pwn",
+	"output": "test/strtoktest.amx",
+	"dependencies": [
+		"sampctl/samp-stdlib"
+	],
+	"builds": [
+        {
+            "name": "test",
+            "includes": ["./include"]
+        }
+    ]
+}
