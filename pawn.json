@@ -3,8 +3,9 @@
 	"repo": "pawn-strtok",
 	"entry": "test/strtoktest.pwn",
 	"output": "test/strtoktest.amx",
+    "include_path": "include",
 	"dependencies": [
-		"sampctl/samp-stdlib"
+		"sampctl/pawn-stdlib"
 	],
 	"builds": [
         {
